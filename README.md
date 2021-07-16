@@ -25,7 +25,7 @@
 
 ### Heroku'ya Dağıt ⬇️</h4>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/medla3/WoopMusicBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sunac01/cumal-)
 
 Buradan pyrogram STRING_NAME alın ⬇️
 
