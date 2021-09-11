@@ -29,17 +29,17 @@ Beni grubunuza ekleyin ve özgürce müzik çalın !**
             [
                 [
                     InlineKeyboardButton(
-                        "👤 Owner 🇹🇷", url="https://t.me/sancaklar_federasyon")
+                        "👤 Owner 🇹🇷", url="https://t.me/kizilsancaksahibi")
                   ],[
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/sohbetutkunu"
+                        "💬 Group", url="https://t.me/smailesi"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/WoopMusicChannel"
+                        "🔊 Channel", url="https://t.me/kizilsancakbilgi"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "⚒️ Destek Group ⚒️", url="https://t.me/WoopMusicSupport"
+                        "⚒️ Destek Group ⚒️", url="https://t.me/MangoDestek"
                     )]
             ]
         ),
@@ -48,12 +48,12 @@ Beni grubunuza ekleyin ve özgürce müzik çalın !**
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**Woop Music Player Online ✅**""",
+      await message.reply_text("""**Mango Music Player Online ✅**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/WoopMusicChannel")
+                        "🔊 Channel", url="https://t.me/kizilsancakbilgi")
                 ]
             ]
         )
