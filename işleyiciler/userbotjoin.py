@@ -28,7 +28,7 @@ async def addchannel(client, message):
 
     try:
         await USER.join_chat(invitelink)
-        await USER.send_message(message.chat.id,"Woop Music Bot Gruba Giriş Yapıldı")
+        await USER.send_message(message.chat.id,"EllyCarl Music Bot Gruba Giriş Yapıldı")
     except UserAlreadyParticipant:
         await message.reply_text(
             "<b>sohbetinizde zaten yardımcı</b>",
