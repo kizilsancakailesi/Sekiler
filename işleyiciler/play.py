@@ -108,7 +108,7 @@ async def oynat(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="🔊 Channel",
-                        url="https://t.me/woopmusicsupport")
+                        url="https://t.me/MangoDestek")
                    
                 ]
             ]
@@ -134,7 +134,7 @@ async def oynat(_, message: Message):
                     [
                         InlineKeyboardButton(
                             text="🔊 Channel",
-                            url=f"https://t.me/woopmusicsupport")
+                            url=f"https://t.me/MangoDestek")
 
                     ]
                 ]
